@@ -1,23 +1,23 @@
 ﻿{
-	"manifest_version": 2,
-	"name": "HaiGo8 Monitor",
-	"version": "0.0.1",
-	"background": { "scripts": ["jquery-2.0.0.min.js", "background.js"] },
-	"icons": {"48": "48.png"},
-	"web_accessible_resources": [
-    "48.png"
-  ],
-	"page_action": {
-		"default_icon": {
-			"19": "haigo8_19.png",
-			"38": "haigo8_38.png"
-		},
-		"default_title": "海购8订单监听" // shown in tooltip
-		//"default_popup": "popup.html"
-	},
-	"permissions" : ["tabs","notifications","https://www.youdians.com/"]
-	// "content_scripts":[{
-	// 	"matches":["http://www.cnblogs.com/*"],
-	// 	"js":["jquery-2.0.0.min.js", "content_script.js"]
-	// }]
+"manifest_version": 2,
+"name": "HaiGo8 Monitor",
+"version": "0.0.1",
+"background": { "scripts": ["jquery-2.0.0.min.js", "background.js"] },
+"icons": {"48": "48.png"},
+"web_accessible_resources": [
+  "48.png"
+],
+"page_action": {
+  "default_icon": {
+    "19": "haigo8_19.png",
+    "38": "haigo8_38.png"
+  },
+  "default_title": "海购8订单监听" // shown in tooltip
+  //"default_popup": "popup.html"
+},
+"permissions" : ["tabs","notifications","https://www.youdians.com/"]
+// "content_scripts":[{
+//  "matches":["http://www.cnblogs.com/*"],
+//  "js":["jquery-2.0.0.min.js", "content_script.js"]
+// }]
 }
